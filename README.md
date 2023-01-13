@@ -25,3 +25,14 @@ Also, since the rate of churn is typically low (about 5-10%, this is called clas
 
 Therefore, build another model with the main objective of identifying important predictor attributes which help the business understand indicators of churn. A good choice to identify important variables is a logistic regression model or a model from the tree family. In the case of logistic regression, make sure to handle multicollinearity.
 After identifying important predictors, display them visually - you can use plots, summary tables etc. - whatever you think best conveys the importance of features.
+
+
+## Steps performed to build the model:
+1. Process data (convert columns to appropriate formats, handle missing values, etc.)
+2. Conduct exploratory analysis to extract useful insights (whether directly useful for business or for eventual modelling/feature engineering).
+3. Derive new features.
+4. Reduce the number of variables using PCA.
+5. Train a variety of models, tune model hyperparameters, etc. (handle class imbalance ).
+6. Evaluate the models using appropriate evaluation metrics. .
+7. Finally, choose a model based on evaluation metric.
+8. Build another model with the main objective of identifying important predictor attributes which help the business understand indicators of churn.
